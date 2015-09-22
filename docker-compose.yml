@@ -1,0 +1,7 @@
+lychee-photo:
+  image: kdelfour/lychee-docker
+  ports :
+   - "1580:80"
+  volumes:
+   - /srv/docker/lychee-photo/uploads:/uploads
+   - /srv/docker/lychee-photo/data:/data
